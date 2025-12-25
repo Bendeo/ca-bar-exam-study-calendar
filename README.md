@@ -35,13 +35,37 @@ This interactive study calendar provides a structured 9-week study plan covering
 
 ## 🚀 Getting Started
 
-### Option 1: Open Locally
+### Choose Your Format
+
+This calendar is available in **three formats** to suit your preference:
+
+#### Option 1: Interactive Web Calendar (HTML)
 1. Clone or download this repository
 2. Open `index.html` in your web browser
-3. Start following the daily schedule!
+3. Start following the daily schedule with interactive features!
 
-### Option 2: Deploy Online
-You can deploy this to GitHub Pages, Netlify, or any static hosting service:
+**Features:** Expandable weeks, progress tracking, print functionality, mobile-responsive
+
+#### Option 2: Microsoft Word Format
+1. Open `CA-Bar-Exam-Study-Calendar-Word.html` in **Microsoft Word**
+   - Right-click the file and select "Open with Microsoft Word"
+   - Or in Word: File → Open → Select the HTML file
+2. Edit, customize, and print directly from Word
+3. Save as .docx if you want native Word format
+
+**Features:** Fully editable in Word, professional formatting, print-ready
+
+#### Option 3: Markdown/PDF Format  
+1. Open `CA-Bar-Exam-Study-Calendar.md` with any Markdown viewer
+2. For PDF: Use a Markdown to PDF converter or:
+   - Open in Word and save as PDF
+   - Use online converters like markdown-to-pdf.com
+   - Use Adobe Acrobat to convert from Word format
+
+**Features:** Clean text format, easy to convert to PDF, works with any text editor
+
+### Option 4: Deploy Online
+You can deploy the interactive version to GitHub Pages, Netlify, or any static hosting service:
 - Simply upload the files to your hosting provider
 - Access from any device with internet
 
