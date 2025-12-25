@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-Week CA Bar Exam Study Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>California Bar Exam Study Calendar</h1>
+            <p class="subtitle">9-Week Comprehensive Study Plan</p>
+        </header>
+
+        <div class="exam-info">
+            <h2>About the California Bar Exam</h2>
+            <p>The California Bar Exam consists of:</p>
+            <ul>
+                <li><strong>5 Essay Questions:</strong> Covering multiple subject areas</li>
+                <li><strong>1 Performance Test (PT):</strong> Practical legal skills assessment</li>
+                <li><strong>200 Multiple Choice Questions (MBE):</strong> Covering 7 subjects over 2 sessions</li>
+            </ul>
+            <p><strong>Key Subjects:</strong> Contracts, Torts, Criminal Law & Procedure, Constitutional Law, Evidence, Real Property, Civil Procedure, Business Associations, Community Property, Professional Responsibility, Remedies, Trusts & Wills</p>
+        </div>
+
+        <div class="calendar-controls">
+            <button id="toggle-all">Expand All Weeks</button>
+            <button id="print-btn">Print Calendar</button>
+        </div>
+
+        <div class="calendar">
+            <!-- Week 1 -->
+            <div class="week-card">
+                <div class="week-header" data-week="1">
+                    <h2>Week 1: Foundation Building</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-1">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Introduction to bar prep, organizational setup, and foundational concepts
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>⏰ Morning: Review study plan and organize materials (2 hours)</li>
+                                <li>📚 Afternoon: Contracts - Formation and Consideration (3 hours)</li>
+                                <li>📝 Evening: Practice 10 Contracts MBE questions (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Torts - Intentional Torts (3 hours)</li>
+                                <li>📝 Afternoon: Review Contracts notes + 10 MBE questions (2 hours)</li>
+                                <li>✍️ Evening: Practice essay outline - Contracts issue spotting (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📚 Morning: Criminal Law - Elements of Crimes (3 hours)</li>
+                                <li>📝 Afternoon: Torts MBE practice - 20 questions (2 hours)</li>
+                                <li>✍️ Evening: Review and consolidate week's notes (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Constitutional Law - Individual Rights (3 hours)</li>
+                                <li>📝 Afternoon: Criminal Law MBE practice - 20 questions (2 hours)</li>
+                                <li>✍️ Evening: Performance Test introduction and practice (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Real Property - Estates and Future Interests (3 hours)</li>
+                                <li>📝 Afternoon: Constitutional Law MBE - 20 questions (2 hours)</li>
+                                <li>✍️ Evening: Review week's difficult topics (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📚 Morning: Civil Procedure - Jurisdiction (3 hours)</li>
+                                <li>📝 Afternoon: Mixed MBE practice - 30 questions from all subjects (2 hours)</li>
+                                <li>✍️ Evening: Write practice essay - Contracts or Torts (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>📚 Morning: Evidence - Relevance and Hearsay basics (3 hours)</li>
+                                <li>📝 Afternoon: Review week's essays and MBE performance (2 hours)</li>
+                                <li>🎯 Evening: Self-care and light review (1 hour)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 1 Goals:</strong>
+                        <ul>
+                            <li>✓ Complete foundational reading for 7 MBE subjects</li>
+                            <li>✓ Answer 100+ MBE practice questions</li>
+                            <li>✓ Write 1-2 practice essays</li>
+                            <li>✓ Complete 1 performance test practice</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 2 -->
+            <div class="week-card">
+                <div class="week-header" data-week="2">
+                    <h2>Week 2: Core Concepts Deep Dive</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-2">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Deepening understanding of core MBE subjects and CA-specific topics
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📚 Morning: Contracts - Performance, Breach, Remedies (3 hours)</li>
+                                <li>📝 Afternoon: Contracts MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Practice Contracts essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Torts - Negligence and Strict Liability (3 hours)</li>
+                                <li>📝 Afternoon: Torts MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Community Property introduction (CA-specific) (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📚 Morning: Criminal Law - Defenses and Inchoate Crimes (3 hours)</li>
+                                <li>📝 Afternoon: Criminal Law MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Practice Criminal Law essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Criminal Procedure - 4th and 5th Amendments (3 hours)</li>
+                                <li>📝 Afternoon: Criminal Procedure MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Professional Responsibility overview (CA-specific) (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Real Property - Landlord-Tenant, Land Sale Contracts (3 hours)</li>
+                                <li>📝 Afternoon: Real Property MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Review and consolidate notes (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📚 Morning: Civil Procedure - Pleadings, Discovery (3 hours)</li>
+                                <li>📝 Afternoon: Civil Procedure MBE - 30 questions (2 hours)</li>
+                                <li>✍️ Evening: Full Performance Test (3 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>📚 Morning: Evidence - Hearsay Exceptions, Character Evidence (3 hours)</li>
+                                <li>📝 Afternoon: Evidence MBE - 30 questions (2 hours)</li>
+                                <li>🎯 Evening: Review week's performance and adjust study plan (2 hours)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 2 Goals:</strong>
+                        <ul>
+                            <li>✓ Complete 200+ MBE questions</li>
+                            <li>✓ Write 2-3 practice essays</li>
+                            <li>✓ Complete 1 full performance test</li>
+                            <li>✓ Begin CA-specific subject review</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 3 -->
+            <div class="week-card">
+                <div class="week-header" data-week="3">
+                    <h2>Week 3: California-Specific Topics</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-3">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> CA essay subjects and strengthening weak MBE areas
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📚 Morning: Community Property - Classification and Management (3 hours)</li>
+                                <li>📝 Afternoon: Review MBE weak areas (2 hours)</li>
+                                <li>✍️ Evening: Practice Community Property essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Professional Responsibility - CA Rules of Professional Conduct (3 hours)</li>
+                                <li>📝 Afternoon: MPRE/PR practice questions (2 hours)</li>
+                                <li>✍️ Evening: Practice PR essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📚 Morning: Remedies - Damages, Restitution, Equitable Remedies (3 hours)</li>
+                                <li>📝 Afternoon: Mixed MBE practice - 40 questions (2.5 hours)</li>
+                                <li>✍️ Evening: Practice Remedies essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Trusts - Creation, Types, Modification (3 hours)</li>
+                                <li>📝 Afternoon: Wills - Intestacy, Will Execution, Contests (2 hours)</li>
+                                <li>✍️ Evening: Practice Wills/Trusts essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Business Associations - Agency, Partnerships (3 hours)</li>
+                                <li>📝 Afternoon: Business Associations - Corporations basics (2 hours)</li>
+                                <li>✍️ Evening: Practice Business Associations essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📚 Morning: Full simulated MBE session - 100 questions (3 hours)</li>
+                                <li>📝 Afternoon: Review and analyze MBE performance (2.5 hours)</li>
+                                <li>✍️ Evening: Performance Test practice (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>📚 Morning: Review all CA-specific subjects (3 hours)</li>
+                                <li>📝 Afternoon: Practice mixed essays - 2 essays (3 hours)</li>
+                                <li>🎯 Evening: Rest and self-care (1 hour)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 3 Goals:</strong>
+                        <ul>
+                            <li>✓ Complete all CA-specific subject outlines</li>
+                            <li>✓ Answer 200+ MBE questions (cumulative: 500+)</li>
+                            <li>✓ Write 4-5 practice essays covering CA subjects</li>
+                            <li>✓ Complete 1 simulated MBE session (100 questions)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 4 -->
+            <div class="week-card">
+                <div class="week-header" data-week="4">
+                    <h2>Week 4: Intensive Practice & Review</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-4">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> High-volume practice and identifying weak areas
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - Contracts & Torts (50 questions, 2.5 hours)</li>
+                                <li>📚 Afternoon: Review answers and weak topics (2 hours)</li>
+                                <li>✍️ Evening: Practice essay - mixed subjects (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - Criminal Law/Procedure (50 questions, 2.5 hours)</li>
+                                <li>📚 Afternoon: Deep dive into weak Criminal topics (2 hours)</li>
+                                <li>✍️ Evening: Performance Test practice (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - Constitutional Law & Civ Pro (50 questions, 2.5 hours)</li>
+                                <li>📚 Afternoon: Review and consolidate rules (2 hours)</li>
+                                <li>✍️ Evening: Practice essay - Constitutional Law (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - Real Property & Evidence (50 questions, 2.5 hours)</li>
+                                <li>📚 Afternoon: Review Evidence hearsay rules (2 hours)</li>
+                                <li>✍️ Evening: Practice essay - Real Property (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Review all CA-specific outlines (3 hours)</li>
+                                <li>✍️ Afternoon: Practice essays - Community Property & PR (3 hours)</li>
+                                <li>📝 Evening: Light MBE review - 25 questions (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📝 Morning: Full simulated MBE session - 100 questions (3 hours)</li>
+                                <li>📚 Afternoon: Comprehensive review of session (2.5 hours)</li>
+                                <li>✍️ Evening: Full Performance Test (3 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>✍️ Morning: Practice 3 essays - mixed subjects (3.5 hours)</li>
+                                <li>📚 Afternoon: Review essay answers and improve (2 hours)</li>
+                                <li>🎯 Evening: Weekly assessment and planning (1 hour)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 4 Goals:</strong>
+                        <ul>
+                            <li>✓ Answer 300+ MBE questions this week (cumulative: 800+)</li>
+                            <li>✓ Complete 1 full MBE simulation</li>
+                            <li>✓ Write 5-6 practice essays</li>
+                            <li>✓ Complete 2 performance tests</li>
+                            <li>✓ Identify and document top 3 weak areas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 5 -->
+            <div class="week-card">
+                <div class="week-header" data-week="5">
+                    <h2>Week 5: Targeted Improvement</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-5">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Addressing weaknesses and building consistency
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📚 Morning: Deep study - Weak Area #1 (3 hours)</li>
+                                <li>📝 Afternoon: Targeted MBE practice - Weak Area #1 (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Essay on Weak Area #1 (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Deep study - Weak Area #2 (3 hours)</li>
+                                <li>📝 Afternoon: Targeted MBE practice - Weak Area #2 (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Essay on Weak Area #2 (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📚 Morning: Deep study - Weak Area #3 (3 hours)</li>
+                                <li>📝 Afternoon: Targeted MBE practice - Weak Area #3 (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Essay on Weak Area #3 (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Business Associations - Corporate Finance, Shareholder Rights (3 hours)</li>
+                                <li>📝 Afternoon: Mixed MBE practice - all subjects (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Business Associations essay (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Advanced Constitutional Law topics (3 hours)</li>
+                                <li>📝 Afternoon: Evidence MBE intensive (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Performance Test practice (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📝 Morning: Full simulated MBE - 100 questions (3 hours)</li>
+                                <li>📚 Afternoon: Comprehensive analysis and review (2.5 hours)</li>
+                                <li>✍️ Evening: Full essay practice - 3 essays (3.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>✍️ Morning: Performance Test under timed conditions (3 hours)</li>
+                                <li>📚 Afternoon: Review PT and essays from week (2 hours)</li>
+                                <li>🎯 Evening: Rest and mental preparation (1.5 hours)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 5 Goals:</strong>
+                        <ul>
+                            <li>✓ Significantly improve weak areas</li>
+                            <li>✓ Answer 300+ MBE questions (cumulative: 1100+)</li>
+                            <li>✓ Complete 1 full MBE simulation</li>
+                            <li>✓ Write 6-7 practice essays</li>
+                            <li>✓ Complete 2 performance tests</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 6 -->
+            <div class="week-card">
+                <div class="week-header" data-week="6">
+                    <h2>Week 6: Full Simulations</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-6">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Full-day simulations and endurance building
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - mixed (75 questions, 3 hours)</li>
+                                <li>📚 Afternoon: Review and study weak topics (2.5 hours)</li>
+                                <li>✍️ Evening: Essay practice (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>✍️ Morning: Full essay day simulation - 5 essays (5 hours)</li>
+                                <li>📚 Afternoon: Self-review of essays (1.5 hours)</li>
+                                <li>🎯 Evening: Light review, rest (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📝 Morning: Full MBE simulation - 100 questions (3 hours)</li>
+                                <li>📚 Afternoon: Comprehensive review and analysis (2.5 hours)</li>
+                                <li>✍️ Evening: Performance Test (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Review all CA-specific subjects (3 hours)</li>
+                                <li>📝 Afternoon: Targeted MBE - weak subjects (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Practice essays - CA subjects (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Final review of all essay subjects (3 hours)</li>
+                                <li>📝 Afternoon: MBE practice - 50 questions (2.5 hours)</li>
+                                <li>✍️ Evening: Performance Test practice (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday - Full Bar Exam Simulation Day 1</h3>
+                            <ul>
+                                <li>✍️ Morning: 3 Essays (3 hours)</li>
+                                <li>🍽️ Break: Lunch (1 hour)</li>
+                                <li>✍️ Afternoon: 1 Performance Test (3 hours)</li>
+                                <li>📚 Evening: Light review of day's performance (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday - Full Bar Exam Simulation Day 2</h3>
+                            <ul>
+                                <li>✍️ Morning: 2 Essays (2 hours)</li>
+                                <li>🍽️ Break: Short break (15 min)</li>
+                                <li>📝 Late Morning/Afternoon: 100 MBE questions (3 hours)</li>
+                                <li>🍽️ Break: Lunch (1 hour)</li>
+                                <li>📝 Afternoon: 100 MBE questions (3 hours)</li>
+                                <li>🎯 Evening: Rest and recovery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 6 Goals:</strong>
+                        <ul>
+                            <li>✓ Complete 1 full 2-day bar exam simulation</li>
+                            <li>✓ Answer 400+ MBE questions (cumulative: 1500+)</li>
+                            <li>✓ Write 8-10 essays under timed conditions</li>
+                            <li>✓ Complete 2-3 performance tests</li>
+                            <li>✓ Build mental and physical endurance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 7 -->
+            <div class="week-card">
+                <div class="week-header" data-week="7">
+                    <h2>Week 7: Final Review & Refinement</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-7">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Polishing skills and memorizing critical rules
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📚 Morning: Contracts & Torts final review (3 hours)</li>
+                                <li>📝 Afternoon: MBE - Contracts/Torts (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Flashcard review - key rules (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Criminal Law/Procedure final review (3 hours)</li>
+                                <li>📝 Afternoon: MBE - Criminal (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Essay practice - Criminal topics (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📚 Morning: Constitutional Law & Civ Pro final review (3 hours)</li>
+                                <li>📝 Afternoon: MBE - Con Law/Civ Pro (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Performance Test (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Real Property & Evidence final review (3 hours)</li>
+                                <li>📝 Afternoon: MBE - Property/Evidence (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Essay practice - Evidence (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: CA-specific subjects review (3 hours)</li>
+                                <li>✍️ Afternoon: Practice essays - CA subjects (3 hours)</li>
+                                <li>🎯 Evening: Memorize critical distinctions and exceptions (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday</h3>
+                            <ul>
+                                <li>📝 Morning: Full MBE simulation - 100 questions (3 hours)</li>
+                                <li>📚 Afternoon: Review and final gap identification (2.5 hours)</li>
+                                <li>✍️ Evening: 3 Essays timed practice (3.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday</h3>
+                            <ul>
+                                <li>📚 Morning: Review all attack outlines (3 hours)</li>
+                                <li>📝 Afternoon: Light MBE practice - 30 questions (1.5 hours)</li>
+                                <li>🎯 Evening: Rest and mental preparation (1.5 hours)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 7 Goals:</strong>
+                        <ul>
+                            <li>✓ Review all subjects comprehensively</li>
+                            <li>✓ Answer 300+ MBE questions (cumulative: 1800+)</li>
+                            <li>✓ Write 5-6 essays</li>
+                            <li>✓ Memorize critical rules and exceptions</li>
+                            <li>✓ Create and review attack outlines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 8 -->
+            <div class="week-card">
+                <div class="week-header" data-week="8">
+                    <h2>Week 8: Peak Performance Prep</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-8">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Final practice and confidence building
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📝 Morning: MBE practice - mixed (75 questions, 3 hours)</li>
+                                <li>📚 Afternoon: Quick review of missed questions (2 hours)</li>
+                                <li>✍️ Evening: Essay practice (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>✍️ Morning: 4 Essays timed (4 hours)</li>
+                                <li>📚 Afternoon: Self-grade and review (2 hours)</li>
+                                <li>🎯 Evening: Flashcard review (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📝 Morning: Full MBE simulation - 100 questions (3 hours)</li>
+                                <li>📚 Afternoon: Review performance (2 hours)</li>
+                                <li>✍️ Evening: Performance Test (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Final review - focus on highest-frequency topics (3 hours)</li>
+                                <li>📝 Afternoon: MBE - targeted practice (50 questions, 2.5 hours)</li>
+                                <li>✍️ Evening: Light essay review (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Memorization - one-pagers and flowcharts (2.5 hours)</li>
+                                <li>📝 Afternoon: Light MBE practice - 30 questions (1.5 hours)</li>
+                                <li>🎯 Evening: Organize exam materials and relax (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Saturday - Final Full Simulation Day 1</h3>
+                            <ul>
+                                <li>✍️ Morning: 3 Essays (3 hours)</li>
+                                <li>🍽️ Break: Lunch (1 hour)</li>
+                                <li>✍️ Afternoon: 1 Performance Test (3 hours)</li>
+                                <li>📚 Evening: Brief review only (30 min)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend">
+                            <h3>Sunday - Final Full Simulation Day 2</h3>
+                            <ul>
+                                <li>✍️ Morning: 2 Essays (2 hours)</li>
+                                <li>📝 Late Morning/Afternoon: 100 MBE (3 hours)</li>
+                                <li>🍽️ Break: Lunch (1 hour)</li>
+                                <li>📝 Afternoon: 100 MBE (3 hours)</li>
+                                <li>🎯 Evening: Confidence building and rest</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 8 Goals:</strong>
+                        <ul>
+                            <li>✓ Complete final full bar exam simulation</li>
+                            <li>✓ Answer 350+ MBE questions (cumulative: 2150+)</li>
+                            <li>✓ Write 6-8 essays</li>
+                            <li>✓ Perfect exam-day logistics and timing</li>
+                            <li>✓ Build confidence and reduce anxiety</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 9 -->
+            <div class="week-card">
+                <div class="week-header" data-week="9">
+                    <h2>Week 9: Final Week - Taper & Confidence</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="week-content" id="week-9">
+                    <div class="week-overview">
+                        <strong>Focus:</strong> Light review, maintain sharpness, prepare mentally and physically
+                    </div>
+                    <div class="daily-schedule">
+                        <div class="day">
+                            <h3>Monday</h3>
+                            <ul>
+                                <li>📚 Morning: Review attack outlines - all subjects (2.5 hours)</li>
+                                <li>📝 Afternoon: Light MBE practice - 30 questions (1.5 hours)</li>
+                                <li>🎯 Evening: Review frequently missed rules (1.5 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Tuesday</h3>
+                            <ul>
+                                <li>📚 Morning: Final CA-specific review (2.5 hours)</li>
+                                <li>✍️ Afternoon: 2-3 light essay outlines (not full essays) (2 hours)</li>
+                                <li>🎯 Evening: Flashcard review (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Wednesday</h3>
+                            <ul>
+                                <li>📝 Morning: Light MBE practice - 40 questions (2 hours)</li>
+                                <li>📚 Afternoon: Review critical distinctions (2 hours)</li>
+                                <li>✍️ Evening: Performance Test review (1 hour)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Thursday</h3>
+                            <ul>
+                                <li>📚 Morning: Final memorization session (2 hours)</li>
+                                <li>📝 Afternoon: Very light MBE - 20 questions (1 hour)</li>
+                                <li>🎯 Evening: Prepare exam materials, early rest (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day">
+                            <h3>Friday</h3>
+                            <ul>
+                                <li>📚 Morning: Light review - skim outlines (1.5 hours)</li>
+                                <li>🎯 Afternoon: Visit exam location if possible, relax (2 hours)</li>
+                                <li>🎯 Evening: Early dinner, organize materials, early sleep (2 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend exam-day">
+                            <h3>Saturday - EXAM DAY 1 🎯</h3>
+                            <ul>
+                                <li>⏰ Morning: Arrive early, settle in</li>
+                                <li>✍️ Essays: 5 essays (5 hours with breaks)</li>
+                                <li>✍️ Performance Test: 1 PT (3 hours)</li>
+                                <li>🎯 Evening: Light dinner, rest, NO studying</li>
+                            </ul>
+                        </div>
+                        <div class="day weekend exam-day">
+                            <h3>Sunday - EXAM DAY 2 🎯</h3>
+                            <ul>
+                                <li>⏰ Morning: Arrive early, stay calm</li>
+                                <li>📝 MBE Session 1: 100 questions (3 hours)</li>
+                                <li>🍽️ Lunch Break: Eat, relax, don't discuss exam</li>
+                                <li>📝 MBE Session 2: 100 questions (3 hours)</li>
+                                <li>🎉 Evening: CELEBRATE! You did it!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week-goals">
+                        <strong>Week 9 Goals:</strong>
+                        <ul>
+                            <li>✓ Light review only - NO new material</li>
+                            <li>✓ Maintain sharpness without burnout</li>
+                            <li>✓ Prepare physically and mentally</li>
+                            <li>✓ Get adequate sleep</li>
+                            <li>✓ Stay confident and calm</li>
+                            <li>✓ PASS THE BAR EXAM! 🎉</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="study-tips">
+            <h2>Study Tips & Best Practices</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>📝 Daily Study Tips</h3>
+                    <ul>
+                        <li>Study in 90-minute blocks with 15-minute breaks</li>
+                        <li>Use active recall and practice testing</li>
+                        <li>Review missed questions immediately</li>
+                        <li>Make flashcards for tricky rules</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>✍️ Essay Writing Tips</h3>
+                    <ul>
+                        <li>Use IRAC format consistently</li>
+                        <li>Spend 15 minutes reading and outlining</li>
+                        <li>Write for 45 minutes per essay</li>
+                        <li>Issue spot first, then analyze deeply</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>📊 MBE Strategies</h3>
+                    <ul>
+                        <li>Read the call of the question first</li>
+                        <li>Eliminate obviously wrong answers</li>
+                        <li>Watch for trigger words in answers</li>
+                        <li>Time management: ~1.8 min per question</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>🎯 Performance Test Tips</h3>
+                    <ul>
+                        <li>Read the task memo carefully</li>
+                        <li>Use the library provided - don't rely on memory</li>
+                        <li>Format matters - follow instructions</li>
+                        <li>Manage time: 45 min reading, 2.15 hrs writing</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>🧠 Mental Health</h3>
+                    <ul>
+                        <li>Get 7-8 hours sleep per night</li>
+                        <li>Exercise 3-4 times per week</li>
+                        <li>Take at least one day off per week</li>
+                        <li>Practice stress management techniques</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>📚 Resource Management</h3>
+                    <ul>
+                        <li>Use one comprehensive prep course</li>
+                        <li>Supplement with MBE question banks</li>
+                        <li>Join a study group for accountability</li>
+                        <li>Track your progress weekly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-tracker">
+            <h2>Progress Tracker</h2>
+            <div class="tracker-grid">
+                <div class="tracker-item">
+                    <h3>MBE Questions</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" id="mbe-progress"></div>
+                    </div>
+                    <p><span id="mbe-count">0</span> / 2000+ questions</p>
+                </div>
+                <div class="tracker-item">
+                    <h3>Practice Essays</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" id="essay-progress"></div>
+                    </div>
+                    <p><span id="essay-count">0</span> / 40+ essays</p>
+                </div>
+                <div class="tracker-item">
+                    <h3>Performance Tests</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%" id="pt-progress"></div>
+                    </div>
+                    <p><span id="pt-count">0</span> / 10+ PTs</p>
+                </div>
+            </div>
+            <div class="tracker-controls">
+                <button onclick="updateProgress('mbe', 10)">+10 MBE</button>
+                <button onclick="updateProgress('essay', 1)">+1 Essay</button>
+                <button onclick="updateProgress('pt', 1)">+1 PT</button>
+                <button onclick="resetProgress()">Reset All</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>💪 You've got this! Stay consistent, believe in yourself, and success will follow.</p>
+            <p class="disclaimer">This calendar is a general guide. Adjust based on your personal strengths, weaknesses, and learning style. Consider working with a bar prep tutor if you need additional support.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
