@@ -47,30 +47,22 @@ This repository contains a comprehensive 9-week study schedule for the Californi
 
 - **Full_Study_Calendar.md** - Complete 9-week calendar with all daily tasks
 - **Week_1.md** through **Week_9.md** - Individual weekly schedules
-- **Study_Tips.md** - General study strategies and exam day preparation
-
-## Schedule Format
-
-Each day is divided into TWO time blocks:
-- **Morning** - First study session
-- **Afternoon (1)** - Second study session
-
-Time estimates are provided for each task.
 
 ## How to Use This Calendar
 
-1. Follow the daily tasks in Morning and Afternoon (1) blocks
-2. Tasks include lectures, practice questions, essays, and review sessions
-3. Adjust timing as needed for your pace
-4. Take 10-15 minute breaks between study sessions
+Each day is organized into two study blocks:
+- **Morning** - Primary study sessions
+- **Afternoon (1)** - Additional practice and review
+
+Tasks include lectures, practice questions, essays, and review sessions with time estimates for each task.
 
 ## Study Tips
 
+- Take 10-15 minute breaks between study sessions
 - Review mistakes immediately after practice questions
 - Get 7-8 hours of sleep each night
 - Stay hydrated and maintain healthy eating habits
 - Use active recall and spaced repetition techniques
-- Stick to the schedule as closely as possible
 
 ## Exam Day
 
